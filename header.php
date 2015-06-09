@@ -8,6 +8,7 @@
  */
 
 $gravatar = get_theme_mod( 'fictive_gravatar_email', get_option( 'admin_email' ) );
+$avatar = get_theme_mod( 'fictive_avatar_image', '' );
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -30,10 +31,10 @@ $gravatar = get_theme_mod( 'fictive_gravatar_email', get_option( 'admin_email' )
 		</a>
 		<?php endif; // End header image check. ?>
 		<div class="site-branding">
-			<?php if ( '' !=  $gravatar ) : ?>
+            <?php if ( ('' !=  $gravatar) or ('' != $avatar) ) : ?>
 				<div class="header-avatar">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<img src="<?php echo esc_url( fictive_get_gravatar() ); ?>" width="70" height="70" alt="">
+                        <img src="<?php echo esc_url( fictive_get_avatar() ); ?>" width="70" height="70" alt="">
 					</a>
 				</div>
 			<?php endif; ?>

@@ -181,6 +181,21 @@ function fictive_get_gravatar() {
 	return esc_url_raw( $url );
 } // fictive_get_gravatar
 
+/**
+ * A nice avatar in a rounded box
+ *
+ * If local image is chosen, use it. Else, try to use the Gravatar
+ * associated to the admin email or custom email.
+ */
+function fictive_get_avatar() {
+    $avatar = get_theme_mod( 'fictive_avatar_image', '' );
+    if ('' == $avatar) {
+        return fictive_get_gravatar();
+    }
+    else {
+        return esc_url_raw( $avatar );
+    }
+}
 
 /**
  * Returns the URL from the post.
