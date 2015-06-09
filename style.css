@@ -1348,8 +1348,8 @@ a:hover, a:focus, a:active {
   }
 }
 .hentry:before {
-  content: "\f100";
-  z-index: 2;
+  /*content: "\f100";
+  z-index: 2;*/
 }
 .hentry.type-page:before {
   content: "\f443";
