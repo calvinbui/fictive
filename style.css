@@ -2634,3 +2634,8 @@ div.sharedaddy div.sd-block {
   display: block;
   text-align: center;
 }
+
+.tags-links {
+  margin:auto;
+  display:table;
+}
