@@ -1433,10 +1433,6 @@ a:hover, a:focus, a:active {
   display: none;
 }
 
-.byline {
-  display: none;
-}
-
 .single .byline,
 .group-blog .byline {
   display: inline;
@@ -2628,4 +2624,8 @@ div.sharedaddy div.sd-block {
 
 .search-field {
   width: 120%;
+}
+
+.byline, .entry-meta .byline {
+  display: none;
 }
