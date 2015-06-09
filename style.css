@@ -1032,7 +1032,7 @@ a:hover, a:focus, a:active {
   z-index: 1;
 }
 .site-header a:hover .header-image {
-  opacity: 1;
+  opacity: 0.8;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1045,7 +1045,7 @@ a:hover, a:focus, a:active {
   transition: all 0.3s ease-in-out;
   display: block;
   margin: -8px auto 7px;
-  opacity: 0.8;
+  opacity: 1;
   position: relative;
   z-index: -2;
 }
@@ -1453,7 +1453,7 @@ a:hover, a:focus, a:active {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .entry-thumbnail img {
@@ -1463,7 +1463,7 @@ a:hover, a:focus, a:active {
   transition: all 0.3s ease-in-out;
   display: block;
   margin: 0 auto;
-  opacity: 0.8;
+  opacity: 1;
 }
 @media screen and (max-width: 65em) {
   .entry-thumbnail img {
