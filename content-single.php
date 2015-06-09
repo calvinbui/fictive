@@ -7,7 +7,7 @@ $formats = get_theme_support( 'post-formats' );
 ?>
 
 <div class="hentry-wrapper">
-	<?php if ( '' != get_the_post_thumbnail() && 'image' == $format ) : ?>
+	<?php if ( '' != get_the_post_thumbnail() ) : ?>
 		<figure class="entry-thumbnail">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail( 'fictive-index-thumb' ); ?></a>
 		</figure>
