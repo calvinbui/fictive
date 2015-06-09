@@ -2625,3 +2625,7 @@ div.sharedaddy div.sd-block {
 .textwidget {
   padding: 0em 2em;
 }
+
+.search-field {
+  width: 120%;
+}
