@@ -2629,3 +2629,8 @@ div.sharedaddy div.sd-block {
 .byline, .entry-meta .byline {
   display: none;
 }
+
+.more-link, .entry-content > div {
+  display: block;
+  text-align: center;
+}
