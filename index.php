@@ -12,7 +12,7 @@
  */
 
 get_header(); ?>
-
+<?php get_sidebar('right'); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		<?php if ( have_posts() ) : ?>

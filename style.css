@@ -2639,3 +2639,9 @@ div.sharedaddy div.sd-block {
   margin:auto;
   display:table;
 }
+
+.site-sidebar-right {
+  width: 150px;
+  float: right;
+  margin: 0 0 0 -170px;
+}
